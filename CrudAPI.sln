@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudAPI", "CrudAPI\CrudAPI.csproj", "{450C13BA-525B-4C6B-8EF9-3C63C6A84B2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manager", "Manager\Manager.csproj", "{D1A3D4EC-F3BC-4E22-B3C6-3ADFD741E3DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{450C13BA-525B-4C6B-8EF9-3C63C6A84B2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{450C13BA-525B-4C6B-8EF9-3C63C6A84B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{450C13BA-525B-4C6B-8EF9-3C63C6A84B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{450C13BA-525B-4C6B-8EF9-3C63C6A84B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1A3D4EC-F3BC-4E22-B3C6-3ADFD741E3DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A3D4EC-F3BC-4E22-B3C6-3ADFD741E3DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A3D4EC-F3BC-4E22-B3C6-3ADFD741E3DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A3D4EC-F3BC-4E22-B3C6-3ADFD741E3DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98335880-2BCE-4FE7-B228-33D4DFA99B6A}
+	EndGlobalSection
+EndGlobal
