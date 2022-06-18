@@ -70,6 +70,41 @@ namespace CrudAPI.Controllers
             return Json("İşlem Başarısız");
         }
         #endregion
-
+        #region Ürünü Günceller
+        [HttpPut]
+        [Route("UpdateProducts")]
+        public JsonResult UpdateProducts(Products products)
+        {
+            _productManager.UpdateProduct(products);
+            return Json("İşlem Başarılı");
+        }
+        #endregion
+        #region Ürünü Siler
+        [HttpDelete]
+        [Route("DeleteProducts")]
+        public JsonResult DeleteProduct(Products products)
+        {
+            _productManager.RemoveProducts(products);
+            return Json("İşlem Başarılı");
+        }
+        #endregion
+        #region Kategoriyi Günceller
+        [HttpPut]
+        [Route("UpdateCategory")]
+        public JsonResult UpdateCategory(Category category)
+        {
+            _categoryManager.UpdateCategory(category);
+            return Json("İşlem Başarılı");
+        }
+        #endregion
+        #region Kategoriyi Siler
+        [HttpDelete]
+        [Route("DeleteCategory")]
+        public JsonResult DeleteCategory(Category category)
+        {
+            _categoryManager.RemoveCategory(category);
+            return Json("İşlem Başarılı");
+        }
+        #endregion
     }
 }
